@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="موقع المهندس محمد المجيدي - مهندس برمجيات متخصص في تطوير الحلول الرقمية المتكاملة">
+    <meta name="keywords" content="مهندس برمجيات, تطوير ويب, تطبيقات, برمجة, محمد المجيدي">
+    <meta name="author" content="Mohammed Al-Majidi">
+    <title>محمد المجيدي | مهندس برمجيات</title>
+    <link rel="icon" type="image/jpeg" href="images/mohammed-profile.jpg">
+    <link rel="shortcut icon" href="images/mohammed-profile.jpg">
+    
+    <!-- Favicon -->
+    <!-- <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%231A1A1A' width='100' height='100'/><text x='50' y='65' font-size='60' font-weight='bold' fill='%23D4AF37' text-anchor='middle' font-family='Arial'>م</text></svg>"> -->
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body style="opacity: 0; transition: opacity 0.3s ease;">
+
+    <!-- ===== Navigation Bar ===== -->
+    <nav>
+        <div class="navbar-container">
+            <div class="logo">
+              <div class="logo-icon">
+                 <img src="images/mohammed-profile.jpg" alt="صورة المهندس محمد المجيدي">
+              </div>
+           <span>المهندس : محمد المجيدي</span>
+        </div>
+
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-item active"><span class="nav-section-indicator"></span> الرئيسية</a></li>
+                <li><a href="#about" class="nav-item"><span class="nav-section-indicator"></span> عني</a></li>
+                <li><a href="#skills" class="nav-item"><span class="nav-section-indicator"></span> مهاراتي</a></li>
+                <li><a href="#projects" class="nav-item"><span class="nav-section-indicator"></span> أعمالي</a></li>
+                <li><a href="#contact" class="nav-item"><span class="nav-section-indicator"></span> التواصل</a></li>
+            </ul>
+            
+            <div class="nav-right">
+                <button class="settings-btn" title="الإعدادات">⚙️</button>
+                <button class="menu-toggle">☰</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== Hero Section ===== -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>المهندس محمد المجيدي</h1>
+                    <div class="gold-line"></div>
+                    <p class="subtitle">مهندس برمجيات متخصص</p>
+                    <p>أصمم وأبني تجارب رقمية متكاملة، مع شغف لتحويل الأفكار المعقدة إلى حلول برمجية أنيقة وفعالة. متخصص في البرمجة الحديثة وتطوير الأنظمة المحاسبية والتطبيقات الذكية.</p>
+                    
+                    <div class="btn-group">
+                        <button class="btn btn-primary" onclick="document.getElementById('projects').scrollIntoView({behavior: 'smooth'})">عرض أعمالي</button>
+                        <button class="btn btn-secondary" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">تواصل معي</button>
+                    </div>
+                    
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <div class="stat-number">2+</div>
+                            <div class="stat-label">سنوات الخبرة</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">5+</div>
+                            <div class="stat-label">مشاريع مكتملة</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">8+</div>
+                            <div class="stat-label">تقنيات متقنة</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="hero-image">
+                    <div class="image-frame">
+                        <div class="image-frame-outer"></div>
+                        <div class="image-frame-inner"></div>
+                        <div class="image-placeholder">
+                            <img src="images/mohammed-profile.jpg" alt="صورة المهندس محمد المجيدي">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <p>اسحب لأسفل</p>
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- ===== About Section ===== -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">عني</h2>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>من أنا؟</h3>
+                    <p>أنا محمد المجيدي، مهندس برمجيات شغوف بتطوير الحلول الرقمية المبتكرة. أعمل حالياً في مؤسسة خبراء لتقنية المعلومات، وأدرس هندسة البرمجيات في جامعة الجند للعلوم والتكنولوجيا بتعز، اليمن.</p>
+                    
+                    <p>أؤمن بأن الكود النظيف والتصميم المتقن هما أساس أي تجربة مستخدم ناجحة. أجد متعتي في بناء الجسور بين الأفكار الإبداعية والتنفيذ التقني الدقيق.</p>
+                    
+                    <p>متخصص في تطوير تطبيقات الويب الحديثة، وتطوير الأنظمة المحاسبية المتقدمة مثل نظام SmartFin، وكذلك في صيانة وبرمجة الهواتف الذكية. أحب الاستطلاع والعمل على كل شيء جديد ولا يصعب عليّ أي شيء.</p>
+                </div>
+                
+                <div>
+                    <h3>الإنجازات والمهارات</h3>
+                    <div class="about-highlights">
+                        <div class="highlight-card">
+                            <h3>🎓</h3>
+                            <p><strong>التعليم:</strong> بكالوريوس هندسة البرمجيات من جامعة الجند</p>
+                        </div>
+                        <div class="highlight-card">
+                            <h3>💼</h3>
+                            <p><strong>الخبرة:</strong> مطور برمجيات في مؤسسة خبراء لتقنية المعلومات</p>
+                        </div>
+                        <div class="highlight-card">
+                            <h3>📱</h3>
+                            <p><strong>التخصص:</strong> تطوير تطبيقات الويب والهواتف الذكية</p>
+                        </div>
+                        <div class="highlight-card">
+                            <h3>🔧</h3>
+                            <p><strong>الصيانة:</strong> إصلاح جميع أنواع الهواتف والمشاكل البرمجية</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Skills Section ===== -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">مهاراتي التقنية</h2>
+            
+            <div class="skills-grid">
+                <!-- Programming Languages -->
+                <div class="skill-category">
+                    <h3>لغات البرمجة</h3>
+                    
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>JavaScript</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Python</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>C#</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Java</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Frontend Development -->
+                <div class="skill-category">
+                    <h3>تطوير الواجهات</h3>
+                    
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>HTML5</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>CSS3</span>
+                            <span>92%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="92%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>React</span>
+                            <span>88%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="88%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Vue.js</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="70%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Backend Development -->
+                <div class="skill-category">
+                    <h3>تطوير الخلفيات</h3>
+                    
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Node.js</span>
+                            <span>82%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="82%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>MongoDB</span>
+                            <span>78%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="78%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>PostgreSQL</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Firebase</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Tools & Design -->
+                <div class="skill-category">
+                    <h3>أدوات وتصميم</h3>
+                    
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Git</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Docker</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="60%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Illustrator</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Premiere Pro</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Projects Section ===== -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">أعمالي المميزة</h2>
+            
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project-ecommerce.jpg" alt="منصة تجارة إلكترونية">
+                    </div>
+                    <div class="project-content">
+                        <h3>منصة تجارة إلكترونية</h3>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                        <p class="project-description">منصة تجارة إلكترونية متكاملة مع نظام دفع آمن وإدارة مخزون متقدمة.</p>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project-taskmanager.jpg" alt="تطبيق إدارة المهام">
+                    </div>
+                    <div class="project-content">
+                        <h3>تطبيق إدارة المهام</h3>
+                        <div class="project-tech">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                        </div>
+                        <p class="project-description">تطبيق متقدم لإدارة المهام والمشاريع مع تتبع الإنجاز والتقارير.</p>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project-smartfin.jpg" alt="نظام SmartFin المحاسبي">
+                    </div>
+                    <div class="project-content">
+                        <h3>نظام SmartFin المحاسبي</h3>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Tkinter</span>
+                            <span class="tech-tag">SQLite</span>
+                        </div>
+                        <p class="project-description">نظام محاسبي متكامل لإدارة الفواتير والمدفوعات والتقارير المالية.</p>
+                    </div>
+                </div>
+                
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project-mobile.jpg" alt="تطبيق جوال">
+                    </div>
+                    <div class="project-content">
+                        <h3>تطبيق جوال</h3>
+                        <div class="project-tech">
+                            <span class="tech-tag">React Native</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <p class="project-description">تطبيق جوال ذكي مع ميزات متقدمة والتكامل مع الخدمات السحابية.</p>
+                    </div>
+                </div>
+                
+                <!-- Project 5 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/project-design.jpg" alt="تصميم الشعارات والموك أب">
+                    </div>
+                    <div class="project-content">
+                        <h3>تصميم الشعارات والموك أب</h3>
+                        <div class="project-tech">
+                            <span class="tech-tag">Illustrator</span>
+                            <span class="tech-tag">Photoshop</span>
+                            <span class="tech-tag">UI/UX</span>
+                        </div>
+                        <p class="project-description">تصميم شعارات احترافية وموك أب للشركات والمؤسسات.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Contact Section ===== -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">تواصل معي</h2>
+            
+            <div class="contact-content">
+                <!-- Contact Form -->
+                <form class="contact-form" id="contactForm" action="https://formspree.io/f/xqayaajo" method="POST">
+                    <div class="form-group">
+                        <label for="name">الاسم *</label>
+                        <input type="text" id="name" name="name" placeholder="أدخل اسمك الكامل" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">البريد الإلكتروني *</label>
+                        <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group form-group-half">
+                            <label for="country_code">رمز الدول *</label>
+                            <select id="country_code" name="country_code" required>
+                                <option value="">اختر الدولة...</option>
+                                <option value="+966">🇸🇦 السعودية (+966)</option>
+                                <option value="+971">🇦🇪 الإمارات (+971)</option>
+                                <option value="+974">🇶🇦 قطر (+974)</option>
+                                <option value="+965">🇰🇼 الكويت (+965)</option>
+                                <option value="+973">🇧🇭 البحرين (+973)</option>
+                                <option value="+968">🇴🇲 عمان (+968)</option>
+                                <option value="+967">🇾🇪 اليمن (+967)</option>
+                                <option value="+212">🇲🇦 المغرب (+212)</option>
+                                <option value="+213">🇩🇿 الجزائر (+213)</option>
+                                <option value="+216">🇹🇳 تونس (+216)</option>
+                                <option value="+218">🇱🇾 ليبيا (+218)</option>
+                                <option value="+20">🇪🇬 مصر (+20)</option>
+                                <option value="+249">🇸🇩 السودان (+249)</option>
+                                <option value="+251">🇪🇹 إثيوبيا (+251)</option>
+                                <option value="+252">🇸🇴 الصومال (+252)</option>
+                                <option value="+256">🇺🇬 أوغندا (+256)</option>
+                                <option value="+255">🇹🇿 تنزانيا (+255)</option>
+                                <option value="+254">🇰🇪 كينيا (+254)</option>
+                                <option value="+961">🇱🇧 لبنان (+961)</option>
+                                <option value="+963">🇸🇾 سوريا (+963)</option>
+                                <option value="+962">🇯🇴 الأردن (+962)</option>
+                                <option value="+970">🇵🇸 فلسطين (+970)</option>
+                                <option value="+972">🇮🇱 إسرائيل (+972)</option>
+                                <option value="+966">🇸🇦 السعودية (+966)</option>
+                                <option value="+90">🇹🇷 تركيا (+90)</option>
+                                <option value="+98">🇮🇷 إيران (+98)</option>
+                                <option value="+92">🇵🇰 باكستان (+92)</option>
+                                <option value="+91">🇮🇳 الهند (+91)</option>
+                                <option value="+1">🇺🇸 أمريكا (+1)</option>
+                                <option value="+44">🇬🇧 بريطانيا (+44)</option>
+                                <option value="+33">🇫🇷 فرنسا (+33)</option>
+                                <option value="+49">🇩🇪 ألمانيا (+49)</option>
+                                <option value="+39">🇮🇹 إيطاليا (+39)</option>
+                                <option value="+34">🇪🇸 إسبانيا (+34)</option>
+                                <option value="+31">🇳🇱 هولندا (+31)</option>
+                                <option value="+32">🇧🇪 بلجيكا (+32)</option>
+                                <option value="+41">🇨🇭 سويسرا (+41)</option>
+                                <option value="+43">🇦🇹 النمسا (+43)</option>
+                                <option value="+46">🇸🇪 السويد (+46)</option>
+                                <option value="+47">🇳🇴 النرويج (+47)</option>
+                                <option value="+45">🇩🇰 الدنمارك (+45)</option>
+                                <option value="+358">🇫🇮 فنلندا (+358)</option>
+                                <option value="+48">🇵🇱 بولندا (+48)</option>
+                                <option value="+420">🇨🇿 التشيك (+420)</option>
+                                <option value="+36">🇭🇺 المجر (+36)</option>
+                                <option value="+40">🇷🇴 رومانيا (+40)</option>
+                                <option value="+359">🇧🇬 بلغاريا (+359)</option>
+                                <option value="+30">🇬🇷 اليونان (+30)</option>
+                                <option value="+81">🇯🇵 اليابان (+81)</option>
+                                <option value="+86">🇨🇳 الصين (+86)</option>
+                                <option value="+82">🇰🇷 كوريا الجنوبية (+82)</option>
+                                <option value="+60">🇲🇾 ماليزيا (+60)</option>
+                                <option value="+65">🇸🇬 سنغافورة (+65)</option>
+                                <option value="+66">🇹🇭 تايلاند (+66)</option>
+                                <option value="+84">🇻🇳 فيتنام (+84)</option>
+                                <option value="+61">🇦🇺 أستراليا (+61)</option>
+                                <option value="+64">🇳🇿 نيوزيلندا (+64)</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group form-group-half">
+                            <label for="phone">الرقم الهاتفي *</label>
+                            <input type="tel" id="phone" name="phone" placeholder="123456789" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">الموضوع *</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">اختر الموضوع...</option>
+                            <option value="برمجة">برمجة</option>
+                            <option value="تصاميم">تصاميم</option>
+                            <option value="أنظمة">أنظمة</option>
+                            <option value="استشارة">استشارة</option>
+                            <option value="تطوير">تطوير</option>
+                            <option value="صيانة">صيانة</option>
+                            <option value="أخرى">أخرى</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">الرسالة *</label>
+                        <textarea id="message" name="message" placeholder="اكتب رسالتك هنا..." required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">إرسال الرسالة</button>
+                </form>
+                
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <h3>معلومات التواصل</h3>
+                    
+                    <div class="contact-method">
+                        <div class="contact-icon contact-icon-image">
+                            <img src="images/icon-email.jpg" alt="البريد الإلكتروني">
+                        </div>
+                        <div class="contact-details">
+                            <h3>البريد الإلكتروني</h3>
+                            <p><a href="mailto:engmohammedalmagidi@gmail.com">engmohammedalmagidi@gmail.com</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <div class="contact-icon contact-icon-image">
+                            <img src="images/icon-phone.jpg" alt="الاتصال الهاتفي">
+                        </div>
+                        <div class="contact-details">
+                            <h3>الاتصال الهاتفي</h3>
+                            <p><a href="tel:+967733254547">+967 733 254 547</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <div class="contact-icon contact-icon-image">
+                            <img src="images/icon-whatsapp.jpg" alt="الواتساب">
+                        </div>
+                        <div class="contact-details">
+                            <h3>الواتساب</h3>
+                            <p><a href="https://wa.me/967733254547" target="_blank">+967 733 254 547</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <div class="contact-icon">🌐</div>
+                        <div class="contact-details">
+                            <h3>وسائل التواصل الاجتماعي</h3>
+                            <div class="social-links">
+                                <a href="https://www.facebook.com/eng.mo.al" target="_blank" title="Facebook" class="social-link">
+                                    <img src="images/social-facebook.jpg" alt="Facebook">
+                                </a>
+                                <a href="https://www.instagram.com/eng_mo_al" target="_blank" title="Instagram" class="social-link">
+                                    <img src="images/social-instagram.jpg" alt="Instagram">
+                                </a>
+                                <a href="https://t.me/eng_mo_al" target="_blank" title="Telegram" class="social-link">
+                                    <img src="images/social-telegram.jpg" alt="Telegram">
+                                </a>
+                                <a href="https://youtube.com/@eng_mo_al" target="_blank" title="YouTube" class="social-link">
+                                    <img src="images/social-youtube.jpg" alt="YouTube">
+                                </a>
+                                <a href="https://github.com" target="_blank" title="GitHub" class="social-link">
+                                    <img src="images/social-github.jpg" alt="GitHub">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Footer ===== -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 المهندس محمد المجيدي. جميع الحقوق محفوظة.</p>
+            <p class="footer-credit">تم تصميمه بحب ❤️ من قبل المهندس محمد المجيدي</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>
